@@ -1,0 +1,102 @@
+*{
+margin: opx;
+padding: opx;
+}
+body{
+background-image:url(background.jpg) ;
+background-size: cover;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+height: 96vh;
+align-items: center;
+justify-content: center;
+}
+.Register-now
+    {
+    width: 330px;
+    height: 450px;
+    padding: 30px;
+    border-radius:10px; 
+    outline: none ; 
+    background-color: hsla(0, 100%, 90%, 0.3);
+     
+}
+
+form h2 
+{
+    color: black;
+    margin-top: auto;
+    text-align: center;
+}    
+.input-style input 
+{
+width: 95%;
+background: transparent;
+border: 1px solid ;
+color: #000000d7;
+border-color: rgba(240, 248, 255, 0.63);
+outline: none ;
+border-radius: 5px;
+height: 16px;
+margin-bottom:5px;
+font-size: 10px;
+text-align: end;
+}
+
+
+.input-style label
+{
+    color: rgb(34,34,34);
+    margin-bottom: 4px;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.gender P 
+{
+color:rgb(46, 46, 46);
+margin-top: 4px;
+
+}
+
+.option
+{
+    margin-top: 6px;
+    text-align: center;
+}
+
+
+.option label 
+{
+    color: rgb(46, 46, 46);
+    cursor: pointer;
+}
+
+.register-button input 
+{
+    width: 100%;
+    margin-top: 18px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.384) ;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.register-button input:hover
+{ 
+    background: rgba(0, 0, 0, 0.829);
+    color: rgb(255, 255, 255);
+    
+
+}
+
+
+
+
+
+
